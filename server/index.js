@@ -52,14 +52,10 @@ const connectDB = () => {
 const startServer = async () => {
   try {
     connectDB();
-
-    const PORT = process.env.PORT || 8080;
-    app.listen(PORT, () => console.log(`✅ Server started on port ${PORT}`));
-    
+    app.listen(8080, () => console.log("Server started on port 8080"));
   } catch (error) {
     console.log(error);
   }
 };
-
 
 startServer();
