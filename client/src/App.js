@@ -10,6 +10,7 @@ import Workouts from "./pages/Workouts";
 import Profile from "./pages/Profile";
 import Contact from "./pages/Contact";
 import ExerciseTutorials from "./pages/ExerciseTutorials";
+import Supplement from "./pages/Supplement";
 
 
 
@@ -40,6 +41,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/exercisetutorials" element={<ExerciseTutorials/>} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/supplement" element={<Supplement />} />
             </Routes>
           </Container>
         ) : (

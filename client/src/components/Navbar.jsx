@@ -148,7 +148,7 @@ const Navbar = ({ currentUser }) => {
           <Navlink to="/workouts">Workouts</Navlink>
           <Navlink to="/exercise-tutorials">Tutorials</Navlink>
           <Navlink to="/contact">Contact</Navlink>
-          <Navlink to="/profile">Profilim</Navlink>
+          <Navlink to="/profile">Profile</Navlink>
         </MobileMenu>
 
         <NavItems>
@@ -157,6 +157,7 @@ const Navbar = ({ currentUser }) => {
           <Navlink to="/exercisetutorials">Tutorials</Navlink>
           <Navlink to="/contact">Contact</Navlink>
           <Navlink to="/Profile">Profile</Navlink>
+          <NavLink to="/supplement">Supplement</NavLink>
         </NavItems>
 
         <UserContainer>
